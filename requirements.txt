@@ -1,0 +1,9 @@
+# SQL linting
+sqlfluff==1.4.5
+
+# dbt and Databricks adapter
+dbt-core==1.7.9
+dbt-databricks==1.7.9
+
+# Pre-commit hook management
+pre-commit==3.7.0

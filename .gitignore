@@ -1,0 +1,32 @@
+# Virtual environment
+.venv/
+
+# dbt
+target/
+dbt_modules/
+dbt_packages/
+logs/
+profiles.yml
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Environment variables
+.env
+*.env
+
+# OS clutter
+.DS_Store
+desktop.ini
+Thumbs.db
+
+# VSCode
+.vscode/
+
+# Jupyter
+.ipynb_checkpoints/
