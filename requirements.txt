@@ -1,9 +1,21 @@
 # SQL linting
 sqlfluff==1.4.5
 
-# dbt and Databricks adapter
-dbt-core==1.7.9
-dbt-databricks==1.7.9
+# dbt and DuckDB adapter
+dbt-core==1.11.6
+dbt-duckdb==1.9.6
+
+# DuckDB Python connector
+duckdb==1.4.4
+
+# Data manipulation
+pandas==2.2.3
+
+# HTTP requests for API ingestion
+requests==2.32.5
+
+# Environment variable management
+python-dotenv==1.0.1
 
 # Pre-commit hook management
 pre-commit==3.7.0

@@ -14,4 +14,4 @@ repos:
     rev: 1.4.5
     hooks:
       - id: sqlfluff-lint
-        additional_dependencies: ['dbt-databricks==1.7.9', 'dbt-core==1.7.9']
+        additional_dependencies: ['dbt-duckdb==1.9.6', 'dbt-core==1.11.6']
