@@ -1,0 +1,26 @@
+[sqlfluff]
+dialect = sparksql
+templater = dbt
+max_line_length = 100
+tab_space_size = 4
+
+[sqlfluff:templater:dbt]
+project_dir = ./transform
+
+[sqlfluff:rules]
+comma_style = leading
+
+[sqlfluff:rules:capitalisation.keywords]
+capitalisation_policy = lower
+
+[sqlfluff:rules:capitalisation.functions]
+capitalisation_policy = lower
+
+[sqlfluff:rules:capitalisation.identifiers]
+capitalisation_policy = lower
+
+[sqlfluff:rules:layout.indent]
+indent_unit = space
+
+[sqlfluff:rules:references.keywords]
+quoted_identifiers_policy = none
